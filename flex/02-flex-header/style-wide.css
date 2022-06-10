@@ -1,6 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: inline-flex;
+  height: 110px;
+  width: 1500px;
+  justify-content: flex-start;
+  align-items: center;
+  
 }
 
 .logo {
@@ -8,13 +14,31 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
+  padding: 4px 22px;
+  flex: 0;
+  height: 60px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  flex: 1;  
+  display: inline-flex;
+  column-gap: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
+
+.left-links{
+  margin-right: auto;
+}
+
+
+.right-links{
+  margin-left: auto;
+}
+
 
 a {
   font-size: 22px;

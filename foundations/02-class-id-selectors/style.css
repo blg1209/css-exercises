@@ -1,0 +1,20 @@
+.bgcolor{
+background-color: rgb(241, 182, 182);
+font-size: 20px;
+font-family: 'Verdana','DejaVu Sans', 'sans-serif';
+}
+
+.fsize{
+    font-size: 26px;
+}
+
+#unique1{
+font-size: 36px;
+color: #0000FF;
+}
+
+#unique2{
+font-size: 24px;
+font-weight: bold;
+background-color: #45f300;
+}
